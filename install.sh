@@ -18,5 +18,3 @@ ln -fs docker-bitmessage-keys.pub authorized_keys
 
 # link to Bitmessage script for system-wide access
 ln -fs ~/docker-bitmessage-gui/bitmessage /usr/local/bin/bitmessage
-
-

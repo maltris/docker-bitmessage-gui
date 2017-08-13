@@ -3,7 +3,7 @@
 set -euxo pipefail
 
 service ssh start
-cd /root/PyBitmessage 
+cd /root/PyBitmessage
 git pull
 
 exec "$@"
